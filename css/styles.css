@@ -1,0 +1,83 @@
+body {
+    background-color: #f4ebdc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #3b2f2f;
+    border-bottom: 5px solid #f4bd38;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #5f7a3d;
+}
+
+.btn-submit {
+    background-color: #ce5e3b;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit:hover {
+    background-color: #b44c2a;
+}
+
+input.is-invalid {
+    border: 1px solid red;
+}
+
+input.is-valid {
+    border: 1px solid green;
+}
+
+.box-info {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-conent {
+    width: 400px;
+}
+
+.circles span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.circles .bg-danger {
+    background-color: red;
+}
+
+.circles .bg-warning {
+    background-color: yellow;
+}
+
+.circles .bg-success {
+    background-color: green;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.table th {
+    color: #3b2f2f;
+}
+
+.table td button {
+    background-color: #ce5e3b;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.table td button:hover {
+    background-color: #b44c2a;
+}
